@@ -1,0 +1,1 @@
+We design the LED to be connected to the battery. We added 10Kohm resistor so we should be safe. The resistor Datasheet is in the repo.
