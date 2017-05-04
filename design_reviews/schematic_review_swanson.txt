@@ -1,0 +1,20 @@
+Why is there a 100Ohm resister between gnd and BAT_GND.  You need a wire bridge.
+
+your resistor and capacitor are backwards in the motor driver.  The resistor needs to come bofer the cap.
+
+You don't need the caps between the antenna outputs and the antenna driver.  See the lab write up.
+
+No attributes are set on your custom LEDS.  I also suspect your resistor values aren't quite right, but I can't tell because there are no part numbers on the schematic symbols for the LEDs.
+
+Your IMU is not enabled.  Check for other pins that should be connected.  Read the data sheet.
+
+VDD_IO on your IMU is not connected to power.
+
+Some of the pins on your IMU are not labeled propenly.  I don't know what P$5 is supposed to be.  Whatever it is, there shouldn't be a 10k resistor between it and power.
+
+GND symbols should always point down.
+
+You have one two many occislators on your micro controller.
+
+
+overall, there's a bunch of basic stuff described in the lab that you haven't done.  You need to pay much closer attention to detail if you want your board to work.
