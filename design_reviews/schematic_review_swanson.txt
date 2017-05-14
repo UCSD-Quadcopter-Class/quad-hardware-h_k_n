@@ -18,3 +18,17 @@ You have one two many occislators on your micro controller.
 
 
 overall, there's a bunch of basic stuff described in the lab that you haven't done.  You need to pay much closer attention to detail if you want your board to work.
+
+
+You are using the wrong caps everywhere. You need to use the ones from the prebuilt library.  Same for resistors.
+
+The same serial port is hooked up to both FTDI and the secondary serial breakout.
+
+pin TST needs to be grounded.
+
+You don't need the pull up resistor on Pin P$5 of the IMU.
+
+The resistor needs to come befor the connection to the caps in the motor input filter.
+
+
+
