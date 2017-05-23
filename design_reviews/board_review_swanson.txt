@@ -1,0 +1,72 @@
+
+commit e0ea32f133240d8fb703874f7915abd3e82347c4
+
+wrong motor decoupling caps on motor drivers.
+
+Why do yo uhave a jumper between pwm and gnd?
+
+You are using the wrong diodes on your motor controllers.
+
+Your motor drivers are connect to GND instead of BAT_GND
+
+Power
+=====
+Wrong cap on input to voltage regulator.  There should only be one.
+
+All the wires that carry high-current need to be high current.  These include those that connect the battery terminals to the jumper, jumper to voltage regulator. etc.
+
+The battery terinals, the jumper and the voltage regulator should all be close to one another.
+
+DRC
+=====
+
+Lots of errors. Make sur you are using the new DRU file when autorouting.
+
+
+Motor holders
+=====
+
+the sides of your motor holders are too thin.
+
+Pours
+=====
+
+You need separate pours for BATGND and GND.
+
+Antenna
+=====
+
+Your antenna looks nothing like the red board.  It needs to compact, symetrical, with short wires.
+
+
+
+Oscillator
+=====
+
+Needs to look like red board.
+
+decoupling
+=====
+
+Your decoupling caps need to be closer to the microcontroller and IMU
+
+Voltage regulator
+=====
+ see above.
+
+Reset button
+=====
+
+you don't have a reset button.
+
+Jumper
+=====
+
+
+Misc
+=====
+
+One of your headers is hanging off the board.
+
+Lots of stuff on the bottom of the board.  It's hard to solder down there.
+
