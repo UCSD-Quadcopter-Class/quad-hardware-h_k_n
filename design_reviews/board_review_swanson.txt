@@ -70,3 +70,24 @@ One of your headers is hanging off the board.
 
 Lots of stuff on the bottom of the board.  It's hard to solder down there.
 
+commit 9b5eac070b5dd4294adf450c18d93ea41605c31c
+
+You have no ground pours around your antenna driver
+
+Your ground pours run under your antenna
+
+
+Error: quadcopter.sch -- Length of N$7 is too long (4.17112703831mm).  Should be less than 3mm
+Error: quadcopter.sch -- RFANT should be in RF signal class (And should be thicker.  SEe red board).
+Error: quadcopter.sch -- RFP and RFN are too long
+Error: quadcopter.sch -- RFANT is too long (9.60144872844mm).  Should be less than 5mm
+Error: quadcopter.sch -- N$29 should be in high current class
+Error: quadcopter.sch -- N$14 should be in high current class
+Error: quadcopter.sch -- N$19 should be in high current class
+Error: quadcopter.sch -- N$24 should be in high current class
+Error: quadcopter.sch -- N$17 is too long (18.9426450199) should be less that 10 mm
+
+you need separate GND and BAT_GND pours.
+
+
+you are missing the decouping caps on all your motor drivers.
