@@ -4092,9 +4092,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="RFSIG" width="0.4572" drill="0">
+<class number="1" name="HighAmps" width="0.762" drill="0">
 </class>
-<class number="2" name="HIGHCURRENT" width="0.4572" drill="0">
+<class number="2" name="RFSIG" width="0.4572" drill="0">
 </class>
 </classes>
 <parts>
@@ -5125,7 +5125,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="-1000.76" y="927.1"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$14" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="V-"/>
 <wire x1="-1229.36" y1="1102.36" x2="-1229.36" y2="1097.28" width="0.1524" layer="91"/>
@@ -5277,7 +5277,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="-1094.74" y="838.2"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$19" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="V-"/>
 <wire x1="-1155.7" y1="1102.36" x2="-1155.7" y2="1097.28" width="0.1524" layer="91"/>
@@ -5322,7 +5322,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="-1173.48" y="1049.02"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="N$24" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="V-"/>
 <wire x1="-1082.04" y1="1102.36" x2="-1082.04" y2="1097.28" width="0.1524" layer="91"/>
@@ -5367,7 +5367,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="M3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="N$29" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="V-"/>
 <wire x1="-1008.38" y1="1102.36" x2="-1008.38" y2="1097.28" width="0.1524" layer="91"/>
@@ -5989,17 +5989,23 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <approved hash="106,1,-1049.02,932.18,RSTON,,,,,"/>
 <approved hash="106,1,-1104.9,942.34,SSN,,,,,"/>
 <approved hash="108,1,-1069.34,1122.68,VBAT,,,,,"/>
-<approved hash="108,1,-1272.54,1137.92,N$16,,,,,"/>
-<approved hash="108,1,-1369.06,911.86,N$16,,,,,"/>
-<approved hash="108,1,-1165.86,990.6,N$16,,,,,"/>
-<approved hash="108,1,-1165.86,805.18,N$16,,,,,"/>
-<approved hash="108,1,-1369.06,1059.18,N$16,,,,,"/>
-<approved hash="108,1,-1272.54,1059.18,N$16,,,,,"/>
-<approved hash="108,1,-1435.1,1059.18,N$16,,,,,"/>
 <approved hash="108,1,-1369.06,990.6,N$16,,,,,"/>
+<approved hash="108,1,-1165.86,990.6,N$16,,,,,"/>
 <approved hash="108,1,-1272.54,990.6,N$16,,,,,"/>
+<approved hash="108,1,-1369.06,1059.18,N$16,,,,,"/>
+<approved hash="108,1,-1369.06,911.86,N$16,,,,,"/>
+<approved hash="108,1,-1435.1,1059.18,N$16,,,,,"/>
+<approved hash="108,1,-1272.54,1137.92,N$16,,,,,"/>
+<approved hash="108,1,-1272.54,1059.18,N$16,,,,,"/>
+<approved hash="108,1,-1165.86,805.18,N$16,,,,,"/>
 <approved hash="113,1,-1412.37,1039.94,BREAKOUT_HEADER,,,,,"/>
 <approved hash="113,1,-1410.78,1104.27,J2,,,,,"/>
+<approved hash="113,1,-1263.02,1037.4,M1,,,,,"/>
+<approved hash="113,1,-1186.82,1037.4,M2,,,,,"/>
+<approved hash="113,1,-1039.5,1037.4,M4,,,,,"/>
+<approved hash="113,1,-1113.15,1037.4,M3,,,,,"/>
+<approved hash="113,1,-1018.54,899.901,Y2,,,,,"/>
+<approved hash="113,1,-1292.23,1093.66,J7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
