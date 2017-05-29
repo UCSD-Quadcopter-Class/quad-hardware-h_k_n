@@ -2988,11 +2988,11 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="15.45" y="32.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="GRM21BR61E106KA73L" x="15.45" y="32.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C9" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.75pF" x="-21.472428125" y="-19.247015625">
-<attribute name="DIST" value="Digikey" x="-21.472428125" y="-19.247015625" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-3585-1-ND" x="-21.472428125" y="-19.247015625" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-21.472428125" y="-19.247015625" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GQM2195C2AR75CB01D" x="-21.472428125" y="-19.247015625" size="1.778" layer="27" display="off"/>
+<element name="C9" library="quadparts_prebuilt" package="CAPC2012X140_HS" value="0.75pF" x="-21.782428125" y="-19.817015625">
+<attribute name="DIST" value="Digikey" x="-21.782428125" y="-19.817015625" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="490-3585-1-ND" x="-21.782428125" y="-19.817015625" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-21.782428125" y="-19.817015625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D" x="-21.782428125" y="-19.817015625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D5" library="quadparts_prebuilt" package="LEDSC125X200X120-2_HS" value="green" x="-9.3" y="34.7">
 <attribute name="DIST" value="Digikey" x="-9.3" y="34.7" size="1.778" layer="27" display="off"/>
@@ -3595,11 +3595,11 @@ design rules under a new name.</description>
 <wire x1="-17.98" y1="-20.07" x2="-18.19" y2="-19.86" width="0.1524" layer="1"/>
 <wire x1="-18.19" y1="-19.86" x2="-18.39185" y2="-19.86" width="0.1524" layer="1"/>
 <wire x1="-18.39185" y1="-19.86" x2="-18.46865" y2="-19.7832" width="0.1524" layer="1"/>
-<wire x1="-20.04124375" y1="-19.7832" x2="-20.577428125" y2="-19.247015625" width="0.1524" layer="1"/>
+<wire x1="-20.04124375" y1="-19.7832" x2="-20.887428125" y2="-19.817015625" width="0.1524" layer="1"/>
 <wire x1="-18.46865" y1="-19.7832" x2="-20.04124375" y2="-19.7832" width="0.1524" layer="1"/>
 <wire x1="-21.034725" y1="-21.13993125" x2="-21.034725" y2="-21.38821875" width="0.1524" layer="1"/>
 <wire x1="-21.034725" y1="-21.38821875" x2="-21.281125" y2="-21.63461875" width="0.1524" layer="1"/>
-<wire x1="-20.577428125" y1="-19.247015625" x2="-20.577428125" y2="-20.682634375" width="0.1524" layer="1"/>
+<wire x1="-20.887428125" y1="-19.817015625" x2="-20.577428125" y2="-20.682634375" width="0.1524" layer="1"/>
 <wire x1="-20.577428125" y1="-20.682634375" x2="-21.034725" y2="-21.13993125" width="0.1524" layer="1"/>
 <wire x1="-21.3354375" y1="-26.774475" x2="-18.664475" y2="-26.774475" width="0.1524" layer="1"/>
 <wire x1="-18.664475" y1="-26.774475" x2="-17.89" y2="-26" width="0.1524" layer="1"/>
@@ -3634,11 +3634,9 @@ design rules under a new name.</description>
 <wire x1="-7.8103125" y1="-26.3236" x2="-7.6764" y2="-26.1896875" width="0.1524" layer="1"/>
 <wire x1="-7.6764" y1="-26.1896875" x2="-7.6764" y2="-26.1864" width="0.1524" layer="1"/>
 <wire x1="-7.61" y1="-26.12" x2="-7.6764" y2="-26.1864" width="0.1524" layer="1"/>
-<wire x1="-7.61" y1="-25.29" x2="-7.61" y2="-22.89" width="0.1524" layer="1"/>
-<wire x1="-7.61" y1="-22.89" x2="-7.61" y2="-20.29" width="0.1524" layer="1"/>
+<wire x1="-7.61" y1="-25.29" x2="-7.61" y2="-20.29" width="0.1524" layer="1"/>
 <wire x1="-7.61" y1="-25.29" x2="-7.61" y2="-26.12" width="0.1524" layer="1"/>
-<wire x1="-7.61" y1="-20.29" x2="-7.61" y2="-19.27" width="0.1524" layer="1"/>
-<wire x1="-7.61" y1="-19.27" x2="-7.61" y2="-18.87" width="0.1524" layer="1"/>
+<wire x1="-7.61" y1="-20.29" x2="-7.61" y2="-18.87" width="0.1524" layer="1"/>
 <wire x1="-7.61" y1="-18.87" x2="-7.78" y2="-18.7" width="0.1524" layer="1"/>
 <wire x1="-10.74" y1="-18.7" x2="-12.34" y2="-18.7" width="0.1524" layer="1"/>
 <wire x1="-10.74" y1="-18.7" x2="-7.78" y2="-18.7" width="0.1524" layer="1"/>
@@ -3649,8 +3647,7 @@ design rules under a new name.</description>
 <wire x1="-15.2836" y1="-21.86" x2="-15.2836" y2="-18.8503125" width="0.1524" layer="1"/>
 <wire x1="-15.2836" y1="-23.82" x2="-15.2836" y2="-26.1896875" width="0.1524" layer="1"/>
 <wire x1="-13.67" y1="-26.3236" x2="-11.55" y2="-26.3236" width="0.1524" layer="1"/>
-<wire x1="-13.67" y1="-26.3236" x2="-14.79" y2="-26.3236" width="0.1524" layer="1"/>
-<wire x1="-14.79" y1="-26.3236" x2="-15.1496875" y2="-26.3236" width="0.1524" layer="1"/>
+<wire x1="-13.67" y1="-26.3236" x2="-15.1496875" y2="-26.3236" width="0.1524" layer="1"/>
 <wire x1="-11.55" y1="-26.3236" x2="-7.8103125" y2="-26.3236" width="0.1524" layer="1"/>
 <wire x1="-12.23" y1="-18.59" x2="-12.23" y2="-17.639" width="0.1524" layer="1"/>
 <wire x1="-12.23" y1="-18.59" x2="-12.34" y2="-18.7" width="0.1524" layer="1"/>
@@ -3794,7 +3791,7 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="FEED"/>
 <wire x1="-23.48" y1="-22.49" x2="-23.503103125" y2="-22.466896875" width="0.1524" layer="1"/>
 <wire x1="-23.48" y1="-22.49" x2="-23.48" y2="-20.3595875" width="0.1524" layer="1"/>
-<wire x1="-23.48" y1="-20.3595875" x2="-22.367428125" y2="-19.247015625" width="0.1524" layer="1"/>
+<wire x1="-23.48" y1="-20.3595875" x2="-22.677428125" y2="-19.817015625" width="0.1524" layer="1"/>
 <wire x1="-21.931125" y1="-23.23461875" x2="-22.73538125" y2="-23.23461875" width="0.1524" layer="1"/>
 <wire x1="-22.73538125" y1="-23.23461875" x2="-23.48" y2="-22.49" width="0.1524" layer="1"/>
 <wire x1="-23.503103125" y1="-22.466896875" x2="-25.60766875" y2="-22.466896875" width="0.1524" layer="1"/>
