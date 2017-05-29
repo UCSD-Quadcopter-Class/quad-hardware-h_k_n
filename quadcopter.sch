@@ -4210,6 +4210,14 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="C18" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
+<part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C8" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C24" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C25" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="GND15" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
+<part name="GND21" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
+<part name="GND24" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
+<part name="GND26" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4336,6 +4344,14 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="D3" gate="G$1" x="-1069.34" y="1104.9" rot="R90"/>
 <instance part="D4" gate="G$1" x="-995.68" y="1104.9" rot="R90"/>
 <instance part="C18" gate="G$1" x="-1389.38" y="1097.28"/>
+<instance part="C7" gate="G$1" x="-1198.88" y="1104.9"/>
+<instance part="C8" gate="G$1" x="-1122.68" y="1104.9"/>
+<instance part="C24" gate="G$1" x="-1049.02" y="1104.9"/>
+<instance part="C25" gate="G$1" x="-977.9" y="1104.9"/>
+<instance part="GND15" gate="1" x="-977.9" y="1092.2"/>
+<instance part="GND21" gate="1" x="-1049.02" y="1092.2"/>
+<instance part="GND24" gate="1" x="-1198.88" y="1092.2"/>
+<instance part="GND26" gate="1" x="-1122.68" y="1092.2"/>
 </instances>
 <busses>
 </busses>
@@ -5183,13 +5199,16 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-995.68" y1="1107.44" x2="-995.68" y2="1109.98" width="0.1524" layer="91"/>
 <junction x="-1008.38" y="1107.44"/>
 <wire x1="-995.68" y1="1109.98" x2="-995.68" y2="1122.68" width="0.1524" layer="91"/>
-<wire x1="-995.68" y1="1122.68" x2="-1069.34" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-995.68" y1="1122.68" x2="-1005.84" y2="1122.68" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="V+"/>
+<wire x1="-1005.84" y1="1122.68" x2="-1049.02" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1049.02" y1="1122.68" x2="-1069.34" y2="1122.68" width="0.1524" layer="91"/>
 <wire x1="-1082.04" y1="1107.44" x2="-1082.04" y2="1109.98" width="0.1524" layer="91"/>
 <wire x1="-1082.04" y1="1109.98" x2="-1069.34" y2="1109.98" width="0.1524" layer="91"/>
 <wire x1="-1069.34" y1="1107.44" x2="-1069.34" y2="1109.98" width="0.1524" layer="91"/>
 <junction x="-1082.04" y="1107.44"/>
-<wire x1="-1143" y1="1122.68" x2="-1069.34" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1143" y1="1122.68" x2="-1122.68" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1122.68" y1="1122.68" x2="-1069.34" y2="1122.68" width="0.1524" layer="91"/>
 <wire x1="-1069.34" y1="1122.68" x2="-1069.34" y2="1109.98" width="0.1524" layer="91"/>
 <wire x1="-1143" y1="1109.98" x2="-1143" y2="1122.68" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="V+"/>
@@ -5197,7 +5216,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-1229.36" y1="1109.98" x2="-1216.66" y2="1109.98" width="0.1524" layer="91"/>
 <wire x1="-1216.66" y1="1107.44" x2="-1216.66" y2="1109.98" width="0.1524" layer="91"/>
 <junction x="-1229.36" y="1107.44"/>
-<wire x1="-1143" y1="1122.68" x2="-1216.66" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1143" y1="1122.68" x2="-1198.88" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1198.88" y1="1122.68" x2="-1216.66" y2="1122.68" width="0.1524" layer="91"/>
 <wire x1="-1216.66" y1="1109.98" x2="-1216.66" y2="1122.68" width="0.1524" layer="91"/>
 <wire x1="-1216.66" y1="1122.68" x2="-1244.6" y2="1122.68" width="0.1524" layer="91"/>
 <label x="-1244.6" y="1122.68" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -5215,6 +5235,26 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="-1069.34" y="1107.44"/>
 <junction x="-995.68" y="1107.44"/>
 <junction x="-1216.66" y="1107.44"/>
+<junction x="-1069.34" y="1122.68"/>
+<pinref part="C24" gate="G$1" pin="+"/>
+<wire x1="-1049.02" y1="1107.44" x2="-1049.02" y2="1122.68" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="-1122.68" y1="1107.44" x2="-1122.68" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-1198.88" y1="1104.9" x2="-1198.88" y2="1107.44" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="+"/>
+<wire x1="-1198.88" y1="1107.44" x2="-1198.88" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-977.9" y1="1107.44" x2="-977.9" y2="1122.68" width="0.1524" layer="91"/>
+<wire x1="-977.9" y1="1122.68" x2="-995.68" y2="1122.68" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<junction x="-1198.88" y="1107.44"/>
+<junction x="-1198.88" y="1122.68"/>
+<junction x="-1122.68" y="1107.44"/>
+<junction x="-1122.68" y="1122.68"/>
+<junction x="-1049.02" y="1107.44"/>
+<junction x="-1049.02" y="1122.68"/>
+<junction x="-995.68" y="1122.68"/>
+<junction x="-977.9" y="1122.68"/>
+<junction x="-977.9" y="1107.44"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="EN"/>
@@ -5778,6 +5818,34 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="C6" gate="G$1" pin="2"/>
 <junction x="-1010.92" y="1033.78"/>
 </segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="-"/>
+<wire x1="-977.9" y1="1099.82" x2="-977.9" y2="1094.74" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="BAT_GND"/>
+<junction x="-977.9" y="1094.74"/>
+<junction x="-977.9" y="1099.82"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="-"/>
+<wire x1="-1049.02" y1="1099.82" x2="-1049.02" y2="1094.74" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="BAT_GND"/>
+<junction x="-1049.02" y="1094.74"/>
+<junction x="-1049.02" y="1099.82"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="-"/>
+<wire x1="-1198.88" y1="1099.82" x2="-1198.88" y2="1094.74" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="BAT_GND"/>
+<junction x="-1198.88" y="1094.74"/>
+<junction x="-1198.88" y="1099.82"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="-"/>
+<wire x1="-1122.68" y1="1099.82" x2="-1122.68" y2="1094.74" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="BAT_GND"/>
+<junction x="-1122.68" y="1099.82"/>
+<junction x="-1122.68" y="1094.74"/>
+</segment>
 </net>
 <net name="N$17" class="2">
 <segment>
@@ -5988,16 +6056,15 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <approved hash="106,1,-1104.9,868.68,PG2,,,,,"/>
 <approved hash="106,1,-1049.02,932.18,RSTON,,,,,"/>
 <approved hash="106,1,-1104.9,942.34,SSN,,,,,"/>
-<approved hash="108,1,-1069.34,1122.68,VBAT,,,,,"/>
-<approved hash="108,1,-1369.06,990.6,N$16,,,,,"/>
-<approved hash="108,1,-1165.86,990.6,N$16,,,,,"/>
-<approved hash="108,1,-1272.54,990.6,N$16,,,,,"/>
 <approved hash="108,1,-1369.06,1059.18,N$16,,,,,"/>
-<approved hash="108,1,-1369.06,911.86,N$16,,,,,"/>
 <approved hash="108,1,-1435.1,1059.18,N$16,,,,,"/>
-<approved hash="108,1,-1272.54,1137.92,N$16,,,,,"/>
+<approved hash="108,1,-1272.54,990.6,N$16,,,,,"/>
+<approved hash="108,1,-1165.86,990.6,N$16,,,,,"/>
+<approved hash="108,1,-1369.06,990.6,N$16,,,,,"/>
 <approved hash="108,1,-1272.54,1059.18,N$16,,,,,"/>
+<approved hash="108,1,-1369.06,911.86,N$16,,,,,"/>
 <approved hash="108,1,-1165.86,805.18,N$16,,,,,"/>
+<approved hash="108,1,-1272.54,1137.92,N$16,,,,,"/>
 <approved hash="113,1,-1412.37,1039.94,BREAKOUT_HEADER,,,,,"/>
 <approved hash="113,1,-1410.78,1104.27,J2,,,,,"/>
 <approved hash="113,1,-1263.02,1037.4,M1,,,,,"/>
